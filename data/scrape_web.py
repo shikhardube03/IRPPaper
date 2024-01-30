@@ -2,8 +2,8 @@ import datasets
 from unidecode import unidecode
 
 banned_word = 'wikipedia' # word to exclude from URL
-out_dir = '' # output directory
-dataset_dir = '' # dataset directory
+out_dir = 'output' # output directory
+dataset_dir = 'data/datasets/medline' # dataset directory
 
 
 dataset = datasets.load_from_disk(dataset_dir)

@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import random
 
-final_name = '' # the name of the model to save as on huggingface
-hf_token = '' # huggingface token for saving dataset
-ds_name = '' # paraphraser dataset name
+final_name = 'IRPParaphraserModel' # the name of the model to save as on huggingface
+hf_token = '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' # huggingface token for saving dataset
+ds_name = 'medline' # paraphraser dataset name
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
