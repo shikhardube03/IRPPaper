@@ -5,7 +5,7 @@ import random
 
 final_name = 'IRPParaphraserModel' # the name of the model to save as on huggingface
 hf_token = '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' # huggingface token for saving dataset
-ds_name = 'medline' # paraphraser dataset name
+ds_name = 'medicine' # paraphraser dataset name
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"

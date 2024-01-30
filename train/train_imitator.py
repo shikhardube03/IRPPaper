@@ -1,4 +1,4 @@
-ds_name = "medline" # name of the dataset
+ds_name = "medicine" # name of the dataset
 final_name = "trainedModel" # output directory and model name for the imitator
 hf_token = "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" # huggingface token
 

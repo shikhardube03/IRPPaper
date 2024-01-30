@@ -4,7 +4,7 @@ import tqdm
 import torch
 import pickle
 
-ds_name = "medline" # name of the dataset to use
+ds_name = "medicine" # name of the dataset to use
 col_name = "" # name of the column in dataset to use as input
 final_name = "trainedModelRetriever" # output dir and final name for model
 hf_token = "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" # huggingface token
