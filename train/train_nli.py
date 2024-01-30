@@ -1,8 +1,8 @@
 import datasets
 data = datasets.load_dataset('SetFit/mnli')
 
-hf_token = "" # huggingface token to upload to the huggingface hub
-final_name = "" # what to save the model name as
+hf_token = "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" # huggingface token to upload to the huggingface hub
+final_name = "trainedNilModel" # what to save the model name as
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"

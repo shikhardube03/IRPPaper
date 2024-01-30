@@ -4,10 +4,10 @@ import tqdm
 import torch
 import pickle
 
-ds_name = "" # name of the dataset to use
+ds_name = "medline" # name of the dataset to use
 col_name = "" # name of the column in dataset to use as input
-final_name = "" # output dir and final name for model
-hf_token = "" # huggingface token
+final_name = "trainedModelRetriever" # output dir and final name for model
+hf_token = "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" # huggingface token
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0"

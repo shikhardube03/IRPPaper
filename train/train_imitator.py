@@ -1,6 +1,6 @@
-ds_name = "" # name of the dataset
-final_name = "" # output directory and model name for the imitator
-hf_token = "" # huggingface token
+ds_name = "medline" # name of the dataset
+final_name = "trainedModel" # output directory and model name for the imitator
+hf_token = "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" # huggingface token
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"]="false"
