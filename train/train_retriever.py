@@ -28,7 +28,7 @@ def convert_data(data):
     output = data['output_aug']
     
     
-    for i in tqdm.tqdm(range(len(information))):
+    for i in tqdm.tqdm(range(len(data))):
         
         out = output[i].split('\n\n')[0]
         out_sentences = nltk.sent_tokenize(out)
